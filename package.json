@@ -4,8 +4,7 @@
   "private": true,
 "scripts": {
   "start": "node server/server.js", 
-  "build": "react-scripts build",
-  "test": "react-scripts test",
+"build": "node node_modules/react-scripts/bin/react-scripts.js build",  "test": "react-scripts test",
   "eject": "react-scripts eject",
   "heroku-postbuild": "cd server && npm install"
 },
