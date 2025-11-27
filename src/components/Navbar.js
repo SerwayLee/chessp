@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <header className="navbar">
-      <div className="brand">Live Chess</div>
+      <div className="brand">Puple Chess</div>
       {showActions && (
         <div className="nav-right">
           {username && <span className="pill">User: {username}</span>}
