@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const API_BASE = process.env.REACT_APP_SERVER_URL || "http://localhost:4000";
+const API_BASE = process.env.REACT_APP_SERVER_URL || "http://localhost:3000";
 
 const LoginRegisterPage = () => {
   const navigate = useNavigate();
