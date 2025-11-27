@@ -149,7 +149,7 @@ const Mainpage = () => {
             <label>Room Title</label>
             <input
               className="input"
-              placeholder="e.g. friday-fight"
+              placeholder="name"
               value={roomId}
               onChange={(e) => setRoomId(e.target.value)}
             />
